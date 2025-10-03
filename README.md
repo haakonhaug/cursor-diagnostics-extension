@@ -1,6 +1,6 @@
 # Cursor Diagnostics Bridge - VS Code Extension
 
-A Visual Studio Code / Cursor extension that exposes real-time IDE diagnostics (errors, warnings, and info) to Claude Code via WebSocket.
+A VSCode-Compatible extension that exposes real-time IDE diagnostics (errors, warnings, and info) to Claude Code via WebSocket.
 
 ## 📦 Installation
 
