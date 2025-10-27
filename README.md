@@ -10,13 +10,13 @@ Download the latest `.vsix` file from this repository and install it using one o
 
 ```bash
 # For VS Code
-code --install-extension cursor-diagnostics-bridge-1.0.7.vsix
+code --install-extension cursor-diagnostics-bridge-x.x.x.vsix
 
 # For Cursor
-cursor --install-extension cursor-diagnostics-bridge-1.0.7.vsix
+cursor --install-extension cursor-diagnostics-bridge-x.x.x.vsix
 
 # For other IDEs (Codium, VSCodium, etc.)
-<your-ide> --install-extension cursor-diagnostics-bridge-1.0.7.vsix
+<your-ide> --install-extension cursor-diagnostics-bridge-x.x.x.vsix
 ```
 
 ### Method 2: Drag and Drop
@@ -27,7 +27,7 @@ Simply drag the `.vsix` file and drop it into the Extensions panel in your IDE.
 
 1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 2. Type **"Extensions: Install from VSIX..."**
-3. Select the `cursor-diagnostics-bridge-1.0.7.vsix` file
+3. Select the `cursor-diagnostics-bridge-x.x.x.vsix` file
 4. Reload when prompted
 
 ## 🚀 Usage
