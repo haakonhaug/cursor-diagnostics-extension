@@ -1,6 +1,6 @@
 # Cursor Diagnostics Bridge - VS Code Extension
 
-A VSCode-Compatible extension that exposes real-time IDE diagnostics (errors, warnings, and info) to Claude Code via WebSocket.
+A VSCode-Compatible extension that exposes real-time IDE diagnostics (errors, warnings, and info) to Claude Code via Unix socket/named pipe.
 
 ## 📦 Installation
 
@@ -32,7 +32,7 @@ Simply drag the `.vsix` file and drop it into the Extensions panel in your IDE.
 
 ## 🚀 Usage
 
-Once installed, the extension automatically starts a WebSocket server on port `3456` and exposes diagnostics to MCP servers.
+Once installed, the extension automatically starts a WebSocket server via Unix socket (macOS/Linux) or named pipe (Windows) and exposes diagnostics to MCP servers.
 
 Look for `$(pulse) Diagnostics Bridge` in your status bar to confirm it's running.
 
